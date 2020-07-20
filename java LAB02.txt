@@ -1,0 +1,243 @@
+//01 
+
+  
+
+public class Marathon { 
+
+  
+
+  public static void main(String[] args) { 
+
+     
+
+    //Declare two integer variables, miles and yards, and one double variable, 
+
+  
+
+    int miles; 
+
+  
+
+    int yards; 
+
+  
+
+    double kilometers; 
+
+  
+
+  
+
+    // Set miles to 26, and yards to 385 
+
+  
+
+    miles = 26; 
+
+  
+
+    yards = 385; 
+
+  
+
+  
+
+    // Write an expression to calculate kilometers from miles and yards. 
+
+  
+
+    // One mile is 1.609 kilometers 
+
+  
+
+    // There are 1760.0 yards in a mile 
+
+     
+
+    // Save the result of the expression in the variable kilometers. 
+
+  
+
+    kilometers = 1.609 * (miles + (yards / 1760.0)); 
+
+  
+
+    System.out.println(kilometers); 
+
+   } 
+
+} 
+
+ 
+
+ 
+
+//02 
+
+ 
+
+public class Marathon  
+
+{ 
+
+    public static void main(String[] args) { 
+
+         
+
+         
+
+        final int miles; 
+
+         final int yards; 
+
+     
+
+        miles = 26; 
+
+     
+
+        yards = 385; 
+
+    
+
+        double kilometers; 
+
+     
+
+     
+
+            kilometers = 1.609 * (miles + (yards / 1760.0)); 
+
+     
+
+           
+
+            System.out.println(kilometers); 
+
+    }  
+
+     
+
+} 
+
+ 
+
+ 
+
+ 
+
+//04 
+
+import java.util.Scanner; 
+
+public class temp 
+
+{ 
+
+  
+
+    public static void main(String[] args) 
+
+    { 
+
+       
+
+            System.out.println("Give in the Celsius values: "); 
+
+            Scanner temp = new Scanner(System.in); 
+
+            double celsius = temp.nextDouble(); 
+
+            double fahrenheit = 9.0/5.0* celsius +32.0; 
+
+     
+
+            System.out.println("Fahrenheit: "+fahrenheit); 
+
+     
+
+    } 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
+
+//05 
+
+import java.util.Scanner; 
+
+public class cube 
+
+{ 
+
+    public static void main(String[] args) { 
+
+         
+
+            double height; 
+
+            double width; 
+
+            double length; 
+
+         
+
+            double volume; 
+
+         
+
+            Scanner kb = new Scanner (System.in); 
+
+         
+
+            System.out.println("Enter Height"); 
+
+            height = kb.nextDouble(); 
+
+         
+
+            System.out.println("Enter width"); 
+
+            width = kb.nextDouble(); 
+
+         
+
+         
+
+            System.out.println("Enter length"); 
+
+            length = kb.nextDouble(); 
+
+         
+
+         
+
+         
+
+         
+
+            volume = height*width*length; 
+
+         
+
+            System.out.println("The Volume of the Cube is: " +volume); 
+
+    } 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
